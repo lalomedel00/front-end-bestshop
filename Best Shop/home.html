@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Best Shop</title>
+  <link rel="shortcut icon" href="./images/logito.png">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/gff2szn.css">
+  <link href="css/shop-homepage.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="contenedor-nav-principal navbar navbar-light navbar-expand-lg fixed-top d-block">
+      <nav class="nav-principal">
+        <div class="container nav-principal-buscador">
+          <a class="navbar-brand" href="home.html"><img src="images/logo.png" width="130px" height="110px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+            <form  class="d-flex buscador-meli">
+              <input id="buscador" class="form-control" type="text" placeholder="Ingresar Ciudad o Direccion.."/>
+              <div class="buscador-borde"></div>
+              <button id="botonBuscador" class="btn btn-buscador"><img src="images/search.png" alt="Buscador" width="15px" height="15px"></button>
+            </form>
+          </div>
+          <div>
+            <p><input id="User" class="usuario" type="text" placeholder="Nombre de usuario."/></p>
+            <input id="password" class="contraseña" type="text" placeholder="Contraseña."/>
+            <p><a href="index.html" class="button-enter">Entrar</a>
+            <a href="index.html" class="button-register">Registrarse</a></p>
+          </div>
+          <a class="carr" href="carrito.html"><img src="images/carrito.png" width="65px" height="65px"></a>
+          <button class="carr-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+          </div>
+
+          </div>
+        </div>
+      </nav>
+    </div>  
+  </header> 
+  
+
+
+
+  <!-- Page Content -->
+  <!-- Carrusel -->
+  <div id="carouselExampleInterval" class="carousel slide carrusel-meli" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active active-indicator"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="12000">
+        <img src="images/carrusel1.png" class="d-block w-100" alt="Carrusel de eventos y ofertas de tiendas 1">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="images/Carrusel2.jpg" class="d-block w-100" alt="Carrusel de eventos y ofertas de tiendas 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Carrusel3.jpg" class="d-block w-100" alt="Carrusel de eventos y ofertas de tiendas 3">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carrusel4.png" class="d-block w-100" alt="Carrusel de eventos y ofertas de tiendas 4">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <img src="images/arrow_left.svg" alt="Flecha">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+      <img src="images/arrow_right.svg" alt="Flecha">
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Placas -->
+  <div class="my-5 container placas-meli">
+    <div class="row">
+      <div class="col placas-meli-card">
+        <div class="d-flex my-4">
+          <div class="circle-card">
+            <img src="images/card.svg" alt="" height="25px" width="25px">
+          </div>
+          <div>
+            <div class="placas-meli-texto">
+              <h3>Tarjeta de crédito</h3>
+              <a href="#">Ver promociones bancarias</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col placas-meli-card">
+        <div class="d-flex my-4">
+          <div class="circle-card">
+            <img src="images/debit.svg" alt="" height="25px" width="25px">
+          </div>
+          <div>
+            <div class="placas-meli-texto">
+              <h3>Tarjeta de débito</h3>
+              <a href="#">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col placas-meli-card">
+        <div class="d-flex my-4">
+          <div class="circle-card">
+            <img src="images/cash.svg" alt="" height="25px" width="25px">
+          </div>
+          <div>
+            <div class="placas-meli-texto">
+              <h3>Efectivo</h3>
+              <a href="#">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col placas-meli-card">
+        <div class="d-flex my-4">
+          <div class="circle-card">
+            <img src="images/plus.svg" alt="" height="25px" width="25px">
+          </div>
+          <div>
+            <div class="placas-meli-card-texto">
+              <h3>Más medios de pago</h3>
+              <a href="#">Ver todos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Oferta de productos -->
+    <div class="container contenedor-items-home">
+      <div class="row">
+        <h2>Ofertas</h2>
+        <a class="contenedor-items-home-a" href="oferta.html">Ver todas</a>
+      </div>
+      <main class="col-sm mb-4 row" id="productos"></main>
+    </div>
+  
+
+  <!-- Footer -->
+  <footer class="py-5 bg-light">
+    <div class="container">
+      <p class="m-2 text-center text-black">Copyright &copy; Best Shop </p>
+    </div>
+  </footer>
+
+
+  
+  <script src="./js/app.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>
